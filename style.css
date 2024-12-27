@@ -74,7 +74,7 @@ body, html {
 .plan .price {
     font-size: 2rem;
     margin: 20px 0;
-    color: #4A90E2;
+    color: #D91656;
  }
 @media (max-width: 768px) {
     .feature-item, .plan {
