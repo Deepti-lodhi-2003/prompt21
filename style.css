@@ -1,0 +1,100 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+.hero {
+    background:linear-gradient(to right,#640D5F,#D91656,#EB5B00);
+    color: #fff;
+    padding: 100px 20px;
+}
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+.cta-button {
+    background: #FFD700;
+    color: #333;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.features {
+    padding: 60px 20px;
+    background: #f4f4f4;
+}
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.feature-item {
+    width: 30%;
+    margin: 20px 0;
+    box-shadow: 2px 2px 10px #D91656;
+}
+.pricing {
+    padding: 80px 20px;
+}
+.pricing-table {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.plan {
+    background: #fff;
+    padding: 40px 20px;
+    width: 100%;
+    max-width: 350px;
+    margin: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.best-value {
+    border: 3px solid #FFD700;
+}
+.plan h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+.plan .price {
+    font-size: 2rem;
+    margin: 20px 0;
+    color: #4A90E2;
+ }
+@media (max-width: 768px) {
+    .feature-item, .plan {
+        width: 100%;
+    }
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .hero p {
+        font-size: 0.9rem;
+    }
+    .cta-button {
+        padding: 10px 20px;
+    }
+}
