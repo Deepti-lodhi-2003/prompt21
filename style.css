@@ -33,6 +33,10 @@ body, html {
     border-radius: 5px;
     text-decoration: none;
 }
+.cta-button:hover {
+    background: #ECE852;
+    color: #333;
+}
 .features {
     padding: 60px 20px;
     background: #f4f4f4;
